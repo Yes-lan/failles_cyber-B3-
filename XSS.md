@@ -330,9 +330,3 @@ JavaScript malveillant dans le navigateur d'autrui.
 Dans notre cas, grâce à Twig et à ses mécanismes d'échappement automatique, Symfony neutralise 
 efficacement la plupart des tentatives XSS, tant que le développeur ne désactive pas volontairement 
 cette protection.
-
----
-
-**NIVEAU DE RISQUE : ÉLEVÉ À CRITIQUE**  
-**FACILITÉ D'EXPLOITATION : FACILE**  
-**TOP OWASP : #7**
