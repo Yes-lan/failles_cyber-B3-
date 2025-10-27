@@ -44,17 +44,17 @@ météo :
 
 1. L'application envoie une requête HTTP :
    ```
-   GET /api/weather?city=Paris
+   GET /api/weather?city=Limoges
    ```
 
 2. Le serveur reçoit la requête et renvoie les données au format JSON :
    ```json
    {
-     "city": "Paris",
+     "city": "Limoges",
      "temperature": 15,
      "condition": "nuageux",
-     "humidity": 65,
-     "wind_speed": 20
+     "humidity": 60,
+     "wind_speed": 10
    }
    ```
 
@@ -272,13 +272,7 @@ Pour résumer :
 • Tandis que les API GraphQL sont plus précises dans les données transférées mais aussi plus 
   complexes.
 
-Aujourd'hui, REST reste le plus utilisé, mais GraphQL gagne du terrain, notamment dans les projets 
-web complexes et possédant un grand nombre de données.
 
 Symfony, via API Platform, supporte excellemment les deux approches, permettant aux développeurs 
 de choisir la solution la plus adaptée à leurs besoins.
 
----
-
-**NIVEAU DE COMPLEXITÉ REST : FAIBLE**  
-**NIVEAU DE COMPLEXITÉ GRAPHQL : MOYEN À ÉLEVÉ**
