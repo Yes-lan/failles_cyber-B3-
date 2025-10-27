@@ -215,7 +215,3 @@ ou des sites possédant Symfony.
 • **Limite :** certains navigateurs ou extensions peuvent supprimer ou tronquer le Referer pour 
   la vie privée.
 
----
-
-**NIVEAU DE RISQUE : ÉLEVÉ**  
-**FACILITÉ D'EXPLOITATION : MOYENNE**
