@@ -18,8 +18,8 @@ accéder à des ressources qui ne lui appartiennent pas.
 
 **Exemple :**
 ```
-URL vulnérable : /api/users/123/profile
-Attaque : /api/users/124/profile (accès au profil d'un autre utilisateur)
+URL vulnérable : /api/user/123/profile
+Attaque : /api/user/124/profile (accès au profil d'un autre utilisateur)
 ```
 
 Le site ne vérifie pas si l'utilisateur connecté a le droit d'accéder à la ressource demandée, 
@@ -155,7 +155,3 @@ ces vulnérabilités.
 **La règle d'or : ne JAMAIS faire confiance à un identifiant fourni par l'utilisateur sans vérifier 
 ses permissions.**
 
----
-
-**NIVEAU DE RISQUE : ÉLEVÉ**  
-**FACILITÉ D'EXPLOITATION : TRÈS FACILE**
