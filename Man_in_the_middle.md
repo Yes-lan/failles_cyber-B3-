@@ -302,10 +302,4 @@ Dans notre cas, Symfony offre des outils robustes (HTTPS forcé, HSTS, cookies s
 combinés à une infrastructure correctement configurée (certificats SSL/TLS valides, protocoles 
 modernes), permettent de se protéger efficacement contre ces attaques.
 
-**La règle d'or : toujours utiliser HTTPS et ne jamais ignorer les avertissements de sécurité.**
-
----
-
-**NIVEAU DE RISQUE : CRITIQUE**  
-**FACILITÉ D'EXPLOITATION : MOYENNE (selon le contexte)**  
-**NÉCESSITE :** Proximité réseau ou compromission infrastructure
+**toujours utiliser HTTPS et ne jamais ignorer les avertissements de sécurité.**
