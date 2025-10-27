@@ -185,8 +185,3 @@ de l'application.
 Dans notre cas, Symfony offre des outils robustes (FormTypes, Voters, Validators) qui, lorsqu'ils 
 sont correctement utilisés, permettent de maintenir une séparation stricte des responsabilités et 
 de prévenir efficacement ces vulnérabilités.
-
----
-
-**NIVEAU DE RISQUE : MOYEN À ÉLEVÉ**  
-**FACILITÉ D'EXPLOITATION : MOYENNE**
