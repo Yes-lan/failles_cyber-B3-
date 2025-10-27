@@ -191,10 +191,5 @@ L'injection SQL est l'une des vulnérabilités les plus dangereuses et les plus 
 Dans notre cas, Symfony avec Doctrine ORM offre une protection robuste grâce aux requêtes préparées 
 et au QueryBuilder qui paramètrent automatiquement toutes les valeurs.
 
-**La règle d'or : ne JAMAIS concaténer directement des données utilisateur dans une requête SQL.**
+**ne JAMAIS concaténer directement des données utilisateur dans une requête SQL.**
 
----
-
-**NIVEAU DE RISQUE : CRITIQUE**  
-**FACILITÉ D'EXPLOITATION : MOYENNE**  
-**TOP OWASP : #3**
